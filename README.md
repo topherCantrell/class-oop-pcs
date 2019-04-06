@@ -1,24 +1,47 @@
 # Object Oriented Programming
 
+Links:
+  - https://en.wikipedia.org/wiki/Imperative_programming
+  - https://en.wikipedia.org/wiki/Object-oriented_programming
+  
+Books:
+  - [Design Patterns](https://www.amazon.com/dp/0201633612?tag=bizzi0d-20)
+  - https://www.amazon.com/Fundamental-Concepts-Object-Oriented-Programming-ebook/dp/B00FO496ZW/ref=sr_1_13
+  - [The OO Thought Process](https://www.amazon.com/dp/B004Z6EWBI?tag=bizzi0d-20)
+  
 7 nights, 3 hours per night (21 hours)
 
-## Encapsulation
-  - Time keeper example
+4 modules (2 nights per module plus 1 night short module)
 
-## Mechanics
+Labs? Multi-languages?
+
+# Encapsulation
+  - OO vs Functional
+  - Evolution of OO:
+    - Encapsulation: functions taking "this" 
+    - Polymorphism: pointers-to-functions ... behaviors
+  - Time keeper example
   - Objects vs Classes
   - Statics vs Members
+  - Software Reuse
 
-## Inheritance
+# Inheritance
   - Interface vs Implementation
   - Program to the interface, not the implementation
   - Diamond of death
-  
-## Terminology and Diagrams
-  - super, base, derived, sub-class, is-a, has-a
-
-Examples:
   - Animal talking (robot, cat, dog, wolf, werwolf)
+  - Composition
+  - IOC (DI)
+
+# Design Patterns
+  - super, base, derived, sub-class, is-a, has-a
+  - decorator
+  - prototype languages (JS)
+  
+# Guidelines and UML
+  - SOLID and GRASP guidelines
+  - UML modeling
+  - Prototype languages (JS)
 
 # 3/28/2019
 
