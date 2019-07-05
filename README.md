@@ -1,5 +1,16 @@
 # Object Oriented Programming
 
+|       | 5:15-6:15 Lecture | 6:15-6:45 Lab/Break | 6:45-7:45 Lecture | 7:45-8:15 Lab |
+| 
+| Day 1 | [History](day1-programs/1_1_History.pptx) |    | Environment  |               |
+| Day 2 |                   |                     |                   |               |
+| Day 3 |                   |                     |                   |               |
+| Day 4 |                   |                     |                   |               |
+| Day 5 |                   |                     |                   |               |
+| Day 6 |                   |                     |                   |               |
+| Day 7 |                   |                     |                   |               |
+
+
 Links:
   - https://en.wikipedia.org/wiki/Imperative_programming
   - https://en.wikipedia.org/wiki/Object-oriented_programming
