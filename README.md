@@ -1,5 +1,6 @@
 # Object Oriented Programming
 
+| ===== | ===== | ===== | ===== | ===== |
 |       | 5:15-6:15 Lecture | 6:15-6:45 Lab/Break | 6:45-7:45 Lecture | 7:45-8:15 Lab |
 | 
 | Day 1 | [History](day1-programs/1_1_History.pptx) |    | Environment  |               |
@@ -14,6 +15,7 @@
 Links:
   - https://en.wikipedia.org/wiki/Imperative_programming
   - https://en.wikipedia.org/wiki/Object-oriented_programming
+  - https://developers.slashdot.org/story/19/07/22/0426201/is-object-oriented-programming-a-trillion-dollar-disaster
   
 Books:
   - [Design Patterns](https://www.amazon.com/dp/0201633612?tag=bizzi0d-20)
