@@ -7,9 +7,9 @@ class Board {
 
 private:
 
-	char board[];
+	char board[9];
 
-	bool checkThreeInARow();
+	bool checkThreeInARow(char token);
 
 public:
 

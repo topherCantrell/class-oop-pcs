@@ -1,11 +1,13 @@
 #include "HumanPlayer.h"
 
-HumanPlayer::HumanPlayer() {
-	// TODO Auto-generated constructor stub
-
+HumanPlayer::HumanPlayer(Board * brd, char tok) {
+	board = brd;
+	token = tok;
 }
 
 HumanPlayer::~HumanPlayer() {
-	// TODO Auto-generated destructor stub
 }
 
+int HumanPlayer::getMove() {
+	return 0;
+}

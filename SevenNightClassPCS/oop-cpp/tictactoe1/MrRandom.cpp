@@ -1,11 +1,10 @@
 #include "MrRandom.h"
 
-MrRandom::MrRandom() {
-	// TODO Auto-generated constructor stub
-
+MrRandom::MrRandom(Board * brd, char tok) {
+	board = brd;
+	token = tok;
 }
 
 MrRandom::~MrRandom() {
-	// TODO Auto-generated destructor stub
 }
 
