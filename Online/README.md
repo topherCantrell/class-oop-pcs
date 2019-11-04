@@ -3,6 +3,44 @@
 21 hours:
   - 28 thirty-minute videos
   - 4 two-hour exercises
+
+|       | Status |Hours making slides | Hours making recording | Number of slides | Recording minutes |
+| ----- | -----  | -----              | -----                  | -----            | -----             |
+| `M1_01_OO_vs_Functional`   | | | | | |
+| `M1_2_Evolution_of_OO`      | | | | | |
+| `M1_3_What_time_is_it`      | | | | | |
+| `M1_4_Classes_and_objects` | | | | | |
+| `M1_5_Statics_and_members` | | | | | |
+| `M1_6_Tic_Tac_Toe`           | | | | | |
+| `M1_7_Pointers`               | | | | | |
+| `EX1_`                          | | | | | |
+| | | | | | |
+| `M2_1_Inheritance`                                 | | | | | |
+| `M2_2_Animal_talking`                             | | | | | |
+| `M2_3_Program_to_interface`                     | | | | | |
+| `M2_4_Composition_and_diamond_of_death`      | | | | | |
+| `M2_5_Generics_STL_and_Collections_Example` | Working | 4 | | | |
+| `M2_6_GUI_Callback_functional_alternatives` | | | | | |
+| `M2_7_Streams_Example` | | | | | |
+| `EX2_` | | | | | |
+| | | | | | |
+| `M3_1_Compile_time_vs_run_time` | | | | | |
+| `M3_2_Singleton` | | | | | |
+| `M3_3_Decprator_Proxies` | | | | | |
+| `M3_4_` | | | | | |
+| `M3_5_` | | | | | |
+| `M3_6_` | | | | | |
+| `M3_7_Prototype_language_javascript` | | | | | |
+| `EX3_` | | | | | |
+| | | | | | |
+| `M4_1_Terminology` | | | | | |
+| `M4_2_` | | | | | |
+| `M4_3_` | | | | | |
+| `M4_4_` | | | | | |
+| `M4_5_` | | | | | |
+| `M4_6_` | | | | | |
+| `M4_7_` | | | | | |
+| `EX4_` | | | | | |
   
 # Module 1: Encapsulation
   - `M1_1_OO vs Functional`

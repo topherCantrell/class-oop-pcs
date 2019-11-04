@@ -81,29 +81,9 @@
                         					
                     </folderInfo>
                     					
-                    <folderInfo id="cdt.managedbuild.config.gnu.mingw.exe.debug.1222773081.906308725" name="/" resourcePath="src">
-                        						
-                        <toolChain id="cdt.managedbuild.toolchain.gnu.mingw.exe.debug.519506044" name="MinGW GCC" superClass="cdt.managedbuild.toolchain.gnu.mingw.exe.debug" unusedChildren="">
-                            							
-                            <tool id="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug.1596521128" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.mingw.exe.debug.676483654"/>
-                            							
-                            <tool id="cdt.managedbuild.tool.gnu.archiver.mingw.base.1077828616" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.mingw.base.1897797953"/>
-                            							
-                            <tool id="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.862614709" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.mingw.exe.debug.798668478"/>
-                            							
-                            <tool id="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.145881142" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.mingw.exe.debug.866837649"/>
-                            							
-                            <tool id="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug.1145805292" name="MinGW C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.mingw.exe.debug.50480516"/>
-                            							
-                            <tool id="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug.313232367" name="MinGW C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.mingw.exe.debug.2115525817"/>
-                            						
-                        </toolChain>
-                        					
-                    </folderInfo>
-                    					
                     <sourceEntries>
                         						
-                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="tictactoe1"/>
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="animals"/>
                         					
                     </sourceEntries>
                     				
@@ -195,9 +175,9 @@
                     					
                     <sourceEntries>
                         						
-                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="animals"/>
                         						
-                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="tictactoe1"/>
+                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
                         					
                     </sourceEntries>
                     				
