@@ -53,6 +53,15 @@ public class Animals {
 		
 		//useList();
 		
+		List<Integer> nums = new ArrayList<Integer>();
+		
+		nums.add(0);
+		int a = nums.get(0);
+		
+		nums.add(null);
+		int b = nums.get(1);
+		
+		
 		List<Animal> zoo = new ArrayList<Animal>();
 		
 		Cat cat = new Cat();

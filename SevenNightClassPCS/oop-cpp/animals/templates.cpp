@@ -77,32 +77,34 @@ public:
 
 };
 
-int main(int argc, char ** argv) {
+/*
+ int main(int argc, char ** argv) {
 
-    ThingInt i;
-    ThingFloat f;
-    ThingStr s;
+ ThingInt i;
+ ThingFloat f;
+ ThingStr s;
 
-    i.set(15);
-    cout << i.sum(20) << endl;
+ i.set(15);
+ cout << i.sum(20) << endl;
 
-    f.set(3.5);
-    cout << f.sum(1.2) << endl;
+ f.set(3.5);
+ cout << f.sum(1.2) << endl;
 
-    s.set("Hello");
-    cout << s.sum("World") << endl;
+ s.set("Hello");
+ cout << s.sum("World") << endl;
 
-    Thing<int> ti;
-    Thing<float> tf;
-    Thing<string> ts;
+ Thing<int> ti;
+ Thing<float> tf;
+ Thing<string> ts;
 
-    ti.set(15);
-    cout << ti.sum(20) << endl;
+ ti.set(15);
+ cout << ti.sum(20) << endl;
 
-    tf.set(3.5);
-    cout << tf.sum(1.2) << endl;
+ tf.set(3.5);
+ cout << tf.sum(1.2) << endl;
 
-    ts.set("Hello");
-    cout << ts.sum("World") << endl;
+ ts.set("Hello");
+ cout << ts.sum("World") << endl;
 
-}
+ }
+ */
