@@ -1,6 +1,26 @@
+# Sunday 11/10/2019 `?h`
+
+**8:00AM - 10:00AM** `2hr`
+
+Worked on `M1_7_MemoryManagement`
+
+# Saturday 11/9/2019 `1.5h`
+
+**10:00AM - 11:30AM** `1.5h`
+
+Worked on `M1_7_MemoryManagement`
+
+# Tuesday 11/5/2019 `2h`
+
+**6:30PM - 8:30PM** `2h`
+
+Worked on `M1_7_MemoryManagement`
+
 # Monday 11/4/2019 `3h`
 
 **4:00PM - 6:00PM** `2h`
+
+Worked on `M1_7_MemoryManagement`
 
 **6:00AM - 7:00AM** `1h`
 

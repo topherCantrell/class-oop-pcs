@@ -49,6 +49,14 @@
                                 								
                                 <option id="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level.1386425042" name="Debug Level" superClass="gnu.cpp.compiler.mingw.exe.debug.option.debugging.level" useByScannerDiscovery="false" value="gnu.cpp.compiler.debugging.level.max" valueType="enumerated"/>
                                 								
+                                <option id="gnu.cpp.compiler.option.other.other.1423840046" name="Other flags" superClass="gnu.cpp.compiler.option.other.other" useByScannerDiscovery="false" value="-c -fmessage-length=0 -std=c++11" valueType="string"/>
+                                								
+                                <option IS_BUILTIN_EMPTY="false" IS_VALUE_EMPTY="false" id="gnu.cpp.compiler.option.preprocessor.def.639424773" name="Defined symbols (-D)" superClass="gnu.cpp.compiler.option.preprocessor.def" useByScannerDiscovery="false" valueType="definedSymbols">
+                                    									
+                                    <listOptionValue builtIn="false" value="__GXX_EXPERIMENTAL_CXX0X__"/>
+                                    								
+                                </option>
+                                								
                                 <inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.345647754" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
                                 							
                             </tool>
@@ -83,7 +91,7 @@
                     					
                     <sourceEntries>
                         						
-                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="animals"/>
+                        <entry excluding="evoZ80.c|evolution.cpp|slice.cpp|pointers.cpp|graphs.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="m1_7_memorypointers"/>
                         					
                     </sourceEntries>
                     				
@@ -175,7 +183,7 @@
                     					
                     <sourceEntries>
                         						
-                        <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="animals"/>
+                        <entry excluding="evoZ80.c|evolution.cpp|slice.cpp|pointers.cpp|graphs.cpp" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="m1_7_memorypointers"/>
                         						
                         <entry flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name="src"/>
                         					
