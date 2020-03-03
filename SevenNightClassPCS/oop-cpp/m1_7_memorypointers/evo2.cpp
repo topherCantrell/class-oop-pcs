@@ -15,6 +15,7 @@ public:
     }
 
     virtual void withdraw(double amount) {
+        cout << "In Base" << endl;
     }
 
     virtual void deposit(double amount) {
@@ -27,8 +28,16 @@ public:
     virtual void withdraw(double amount) {
         //balance = balance - amount;
         //balance = balance - 1.00;
+        cout << "In Fee" << endl;
     }
 };
+
+void takeOutEightDollars(Account & account) {
+
+    account.withdraw(8);
+    withdraw(account, 8);
+
+}
 
 void sayHiEN() {
     cout << "Hello" << endl;
@@ -57,22 +66,28 @@ int main(int argc, char ** argv) {
     // "greet" is a pointer to a function
     // that takes no args and returns
     // nothing.
-    void (*greet)();
+    //void (*greet)();
 
-    greet = sayHiEN;
+    //greet = sayHiEN;
 
-    greet();
+    //greet();
 
-    greet = sayHiSP;
-    greet();
+    //greet = sayHiSP;
+    //greet();
+
+    Account bob;
+
+    takeOutEightDollars(bob);
 
     FeeAccount jan;
 
-    jan.withdraw(5.00);
+    takeOutEightDollars(jan);
+
+    //jan.withdraw(5.00);
 
     //withdraw(&jan, 5.00);
 
-    double *p = (double *) &jan.phone;
-    cout << *p << endl;
+    //double *p = (double *) &jan.phone;
+    //cout << *p << endl;
 
 }
