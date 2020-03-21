@@ -1,0 +1,54 @@
+Compiled from "Generics.java"
+public class Generics {
+  public Generics();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: return
+
+  public static void plain();
+    Code:
+       0: new           #2                  // class java/util/ArrayList
+       3: dup
+       4: invokespecial #3                  // Method java/util/ArrayList."<init>":()V
+       7: astore_0
+       8: aload_0
+       9: ldc           #4                  // String Hello
+      11: invokeinterface #5,  2            // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+      16: pop
+      17: aload_0
+      18: iconst_0
+      19: invokeinterface #6,  2            // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+      24: checkcast     #7                  // class java/lang/String
+      27: astore_1
+      28: getstatic     #8                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      31: aload_1
+      32: invokevirtual #9                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      35: return
+
+  public static void withGenerics();
+    Code:
+       0: new           #2                  // class java/util/ArrayList
+       3: dup
+       4: invokespecial #3                  // Method java/util/ArrayList."<init>":()V
+       7: astore_0
+       8: aload_0
+       9: ldc           #10                 // String HELLO
+      11: invokeinterface #5,  2            // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+      16: pop
+      17: aload_0
+      18: iconst_0
+      19: invokeinterface #6,  2            // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+      24: checkcast     #7                  // class java/lang/String
+      27: astore_1
+      28: getstatic     #8                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      31: aload_1
+      32: invokevirtual #9                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      35: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: invokestatic  #11                 // Method plain:()V
+       3: invokestatic  #12                 // Method withGenerics:()V
+       6: return
+}
