@@ -1,4 +1,5 @@
 *.o
 *.pyc
 Debug
+build
 *.class
