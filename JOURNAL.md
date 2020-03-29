@@ -1,47 +1,17 @@
-# Sunday 11/10/2019 `?h`
+# 3/28/2019
 
-**8:00AM - 10:00AM** `2hr`
+Terry asked for a commercial:
 
-Worked on `M1_7_MemoryManagement`
+> Would you have time in the next few weeks to do a little "commercial" talking about OOP, what it is, content, why they should take it, and a bit about yourself.
+> 
+> Doesn't have to be more than 1-2 minutes. 
+> 
+> I'd like to put something out there for marketing purposes. 
+> 
+> They'll begin marketing fall courses in the April/May timeframe. 
+> 
+> Thoughts?
 
-# Saturday 11/9/2019 `1.5h`
+The commercial could go like this (random thoughts, not a script):
 
-**10:00AM - 11:30AM** `1.5h`
-
-Worked on `M1_7_MemoryManagement`
-
-# Tuesday 11/5/2019 `2h`
-
-**6:30PM - 8:30PM** `2h`
-
-Worked on `M1_7_MemoryManagement`
-
-# Monday 11/4/2019 `3h`
-
-**4:00PM - 6:00PM** `2h`
-
-Worked on `M1_7_MemoryManagement`
-
-**6:00AM - 7:00AM** `1h`
-
-Worked on `M2_6_CppCollections` and `M2_5_JavaCollections`.
-
-# Sunday 11/3/2019 `4h`
-
-**4:00PM - 5:00PM ** `1h`
-
-Worked on `M2_6_CppCollections`.
-
-**7:00AM - 10:00AM** `3h`
-
-Worked on `M2_5_JavaCollections`.
-
-# Saturday 11/2/2019 `4h`
-
-**7:00AM - 9:00AM** `2h`
-
-Worked on generic template. Worked on `M2_5_JavaCollections`.
-
-**2:00PM - 4:00PM** `2h`
-
-Worked on `M2_5_JavaCollections`.
+OO concepts are applicable to many programming languages. In this course I'll introduce the basic concepts of OO: Ecapsulation and Inheritance. I'll show where they come from and why we need them. I'll compare/contrast the features and syntax in popular languages like Python, Java, and C++. I'll talk about OO design patterns, community accepted guidelines for OO structures. I'll look at OO thought process -- modeling and UML diagrams. You don't need to be an expert in any language, but you'll get a taste of OO in multiple languages with simple in-class lab exercises that demonstrate OO concepts.
