@@ -3,37 +3,36 @@ public class TicTacToe {
 	
 	public static void main(String [] args) {
 		
-		Board brd = new Board();
-		HumanPlayer player1 = new HumanPlayer(brd,'X');
-		MrRandom player2 = new MrRandom(brd,'O');
-		String status = "";
+		Board board = new Board();
+				
+		HumanPlayer player1 = new HumanPlayer();
+		HumanPlayer player2 = new HumanPlayer();
+		//MrRandom player2 = new MrRandom();
+		
+		// Who cares what player1 and player2 are?
+		// As long as they have "getMove" ...
+		
+		// No way to say "player2 can be HumanPlayer OR MrRandom". We have to pick
+		// a type for variable "player2"
 		
 		while(true) {
-			int move = player1.getMove();
-			brd.makeMove(move, 'X');
-			
-			if(brd.getStatus()=='X') {
-				status = "Player X wins!";
+			int move = player1.getMove(board, Token.X);
+			board.setToken(move, Token.X);
+			if(board.getStatus()!=Status.PLAYING) {
 				break;
 			}
-			
-			if(brd.getStatus()=='C') {
-				status = "It is a Tie!";
-				break;
-			}
-			
-			move = player2.getMove();
-			brd.makeMove(move, 'O');
-			
-			if(brd.getStatus()=='O') {
-				status = "Player O wins!";
+		
+			move = player2.getMove(board,  Token.O);
+			board.setToken(move,  Token.O);
+			if(board.getStatus()!=Status.PLAYING) {
 				break;
 			}
 		}
 		
-		System.out.println(brd);
-		System.out.println(status);
-		
+		System.out.println();
+		board.print();
+		System.out.println(board.getStatus());		
+				
 	}
 
 }

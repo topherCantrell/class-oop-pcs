@@ -1,18 +1,16 @@
 import java.util.Random;
 
 public class MrRandom {
-	
-	private Board brd;
+		
 	private Random rnd = new Random();
 
-	public MrRandom(Board brd, char token) {
-		this.brd = brd;		
+	public MrRandom() {			
 	}
 	
-	public int getMove() {		
+	public int getMove(Board board, Token token) {		
 		while(true) {
 			int move = rnd.nextInt(9);
-			if(brd.getCell(move)==' ') {
+			if(board.getToken(move)==Token.NONE) {
 				return move;
 			}
 		}		

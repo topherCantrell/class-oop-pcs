@@ -1,61 +1,66 @@
 
 public class Board {
 	
-	private char [] board = {' ',' ',' ',' ',' ',' ',' ',' ',' '};
+	private Token [] board = {
+			Token.NONE,Token.NONE,Token.NONE,
+			Token.NONE,Token.NONE,Token.NONE,
+			Token.NONE,Token.NONE,Token.NONE};
 	
-	public Board() {
-		clearBoard();
+	public Board() {		
 	}
 	
-	public String toString() {
-		String ret = Character.toString(board[0])+"|"+Character.toString(board[1])+"|"+Character.toString(board[2])+"\n";
-		ret += "-+-+-\n";
-		ret += Character.toString(board[3])+"|"+Character.toString(board[4])+"|"+Character.toString(board[5])+"\n";
-		ret += "-+-+-\n";
-		ret += Character.toString(board[6])+"|"+Character.toString(board[7])+"|"+Character.toString(board[8]);
-		return ret;		
+	public void newGame() {
+		for(int i=0;i<9;++i) {
+			board[i] = Token.NONE;
+		}
 	}
 	
-	private boolean checkThreeInARow(char token) {
-		// Horizontal
+	public void setToken(int cell, Token token) {
+		board[cell] = token;
+	}
+	
+	public Token getToken(int cell) {
+		return board[cell];
+	}
+	
+	private boolean check_tripples(Token token) {
 		if(board[0]==token && board[1]==token && board[2]==token) return true;
 		if(board[3]==token && board[4]==token && board[5]==token) return true;
 		if(board[6]==token && board[7]==token && board[8]==token) return true;
-		// Vertical
 		if(board[0]==token && board[3]==token && board[6]==token) return true;
 		if(board[1]==token && board[4]==token && board[7]==token) return true;
 		if(board[2]==token && board[5]==token && board[8]==token) return true;
-		// Diagonal
 		if(board[0]==token && board[4]==token && board[8]==token) return true;
 		if(board[2]==token && board[4]==token && board[6]==token) return true;
 		return false;
 	}
 	
-	public char getStatus() {
-		if(checkThreeInARow('X')) {
-			return 'X';
-		}
-		if(checkThreeInARow('O')) {
-			return 'O';
-		}
+	public Status getStatus() {
+		if(check_tripples(Token.X)) return Status.WON_X;
+		if(check_tripples(Token.O)) return Status.WON_O;
 		for(int i=0;i<9;++i) {
-			if(board[i]==' ') return ' ';
+			if(board[i] == Token.NONE) return Status.PLAYING;
 		}
-		return 'C';
+		return Status.TIE;
 	}
 	
-	public void makeMove(int cell, char token) {
-		board[cell] = token;
+	private String tokenToString(Token token) {
+		switch(token) {
+		case O:
+			return "O";
+		case X:
+			return "X";
+		default:
+			return " ";
+		}
 	}
 	
-	public char getCell(int cell) {
-		return board[cell];
-	}
+	public void print() {
+		System.out.println(tokenToString(board[0])+"|"+tokenToString(board[1])+"|"+tokenToString(board[2]));
+		System.out.println("-+-+-");
+		System.out.println(tokenToString(board[3])+"|"+tokenToString(board[4])+"|"+tokenToString(board[5]));
+		System.out.println("-+-+-");
+		System.out.println(tokenToString(board[6])+"|"+tokenToString(board[7])+"|"+tokenToString(board[8]));
+	}	
 	
-	public void clearBoard() {
-		for(int i=0;i<9;++i) {
-			board[i] = ' ';
-		}		
-	}
-
 }
