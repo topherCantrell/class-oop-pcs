@@ -9,13 +9,55 @@ Books:
   - [Design Patterns](https://www.amazon.com/dp/0201633612?tag=bizzi0d-20)
   - https://www.amazon.com/Fundamental-Concepts-Object-Oriented-Programming-ebook/dp/B00FO496ZW/ref=sr_1_13
   - [The OO Thought Process](https://www.amazon.com/dp/B004Z6EWBI?tag=bizzi0d-20)
+
+| Lecture                     | Status                 |
+| ----                        | ----                   |
+| ### M1_Encapsulation ###### | ###################### |
+| M1_1_Evolution_of_OO        | `Ready to Record` |
+| M1_2_Encapsulation          |                        |
+| M1_3_Classes_and_objects    |                        |
+| M1_4_Statics_and_members    |                        |
+| M1_5_TicTacToe_example      | `Ready to Record` |
+| M1_6_Memory_and_pointers    | `Ready to Record` |
+| M1_7_Memory_composition_CPP | `Ready to Record` |
+| M1_EX_??                    |                        |
+| ### M2_Inheritance ######## | ###################### |
+| M2_1_Inheritance            |                        |
+| M2_2_Animal_talking         |                        |
+| M2_3_Program_to_interface   |                        |
+| M2_4_Multiple_inheritance   |                        |
+| M2_5_Java_collections       |                        |
+| M2_6_CPP_collections        |                        |
+| M2_7_Streams_example        |                        |
+| M2_8_TicTacToe_revisited    |                        |
+| M2_EX_??                    |                        |
+| ### M3_Design_Patterns #### | ###################### |
+| M3_1_Compile_time_run_time  |                        |
+| M3_2_Singleton              |                        |
+| M3_3_Decprator_Proxies      |                        |
+| M3_4_                       |                        |
+| M3_5_                       |                        |
+| M3_6_                       |                        |
+| M3_7_Prototype_JS           |                        |
+| M3_EX_??                    |                        |
+| ### M4_UML_and_OOAD ####### | ###################### |
+| M4_1_Terminology            |                        |
+| M4_2_UML                    |                        |
+| M4_3_SOLID_GRASP_DRY        |                        |
+| M4_4_OO_vs_Functional       |                        |
+| M4_5_GUI_Callback           |                        |
+| M4_6_                       |                        |
+| M4_7_                       |                        |
+| M4_EX_??                    |                        |
   
 # Module 1: Encapsulation
+
   - `M1_1_Evolution_of_OO`
     - Assembler/compiler/native/virtual-machine
     - Encapsulation: functions taking "this" 
     - Polymorphism: pointers-to-functions ... behaviors
-  - `M1_2_What_time_is_it`
+  - `M1_2_Encapsulation`
+    - What time is it
     - Program to the interface -- not the implementation (more later)
   - `M1_3_Classes_and_objects`
     - Interface/API
@@ -25,7 +67,7 @@ Books:
      - Getters and Setters
      - Constructors/Destructors
      - Construction -- special time in an object's life. Initialize vs set
-  - `M1_5_Tic_Tac_Toe Example`
+  - `M1_5_TicTacToe_example`
     - Enum for moves? For cell states?
     - ErrorChecking/Assertions
     - How could you swap players? (teaser for polymorphism)
@@ -33,8 +75,8 @@ Books:
       - heap and stack
       - following pointers
       - garbage collection
-  - `M1_7_Memory_Composition in C++`
-  - `EX1_` ?? Some kind of modeling example
+  - `M1_7_Memory_composition_CPP`
+  - `M1_EX1_` ?? Some kind of modeling example
 
 # Module 2: Inheritance
   - `M2_1_Inheritance`  
