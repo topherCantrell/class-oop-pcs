@@ -17,7 +17,7 @@ Books:
 | M1_2_Encapsulation          |                        |
 | M1_3_Classes_and_objects    |                        |
 | M1_4_Statics_and_members    |                        |
-| M1_5_TicTacToe_example      | *30 mins*              |
+| M1_5_TicTacToe_example      | **30 mins**            |
 | M1_6_Memory_and_pointers    | `Ready to Record` |
 | M1_7_Memory_composition_CPP | `Ready to Record` |
 | M1_EX_??                    |                        |
