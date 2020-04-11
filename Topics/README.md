@@ -52,11 +52,21 @@ Books:
   
 # Module 1: Encapsulation
 
-  - `M1_1_Evolution_of_OO`
-    - Assembler/compiler/native/virtual-machine
-    - Encapsulation: functions taking "this" 
-    - Polymorphism: pointers-to-functions ... behaviors
-  - `M1_2_Encapsulation`
+## M1_1_Evolution_of_OO
+  - 3,4: Assembly language, how IFs work, labels, subroutines, assembler is forerunner to compiler
+  - 5: RAM, ROM, IO, stack, heap, function information on the stack
+  - 6: Structured programming, subroutines, no-goto, disassembly of a loop, disassembly of an expression
+  - 7,8: Virtual machines, python is compiled
+  - 9: Memory structure
+  - 10: Functions coupled to structure
+  - 11, 12: Encapsulation, basic objects, access keywords
+  - 13: "this" in python
+  - 14: Nesting structures (composition)
+  - 15,16: Basic inheritance
+  - 17: Pointers to functions
+  - 18, 19: Virtual function table, polymorphismm
+    
+## M1_2_Encapsulation
     - What time is it
     - Program to the interface -- not the implementation (more later)
   - `M1_3_Classes_and_objects`
