@@ -13,7 +13,7 @@ Books:
 | Lecture                     | Status                 |
 | ----                        | ----                   |
 | ### M1_Encapsulation ###### | ###################### |
-| M1_1_Evolution_of_OO        | `Ready to Record` |
+| M1_1_Evolution_of_OO        | **40 mins**            |
 | M1_2_Encapsulation          |                        |
 | M1_3_Classes_and_objects    |                        |
 | M1_4_Statics_and_members    |                        |
