@@ -67,76 +67,116 @@ Books:
   - 18, 19: Virtual function table, polymorphismm
     
 ## M1_2_Encapsulation
-    - What time is it
-    - Program to the interface -- not the implementation (more later)
-  - `M1_3_Classes_and_objects`
-    - Interface/API
-    - Software Reuse
-    - NamingConvention/Verbs/nouns/best-practice
-  - `M1_4_Statics_and_members`
-     - Getters and Setters
-     - Constructors/Destructors
-     - Construction -- special time in an object's life. Initialize vs set
-  - `M1_5_TicTacToe_example`
-    - Enum for moves? For cell states?
-    - ErrorChecking/Assertions
-    - How could you swap players? (teaser for polymorphism)
-  - `M1_6_Memory_and_pointers`
-      - heap and stack
-      - following pointers
-      - garbage collection
-  - `M1_7_Memory_composition_CPP`
-  - `M1_EX1_` ?? Some kind of modeling example
+  - What time is it
+  - Program to the interface -- not the implementation (more later)    
+    
+## M1_3_Classes_and_objects
+  - Interface/API
+  - Software Reuse
+  - NamingConvention/Verbs/nouns/best-practice
+    
+## M1_4_Statics_and_members
+   - Getters and Setters
+   - Constructors/Destructors
+   - Construction -- special time in an object's life. Initialize vs set
+     
+## M1_5_TicTacToe_example
+  - 3: Finding the objects
+  - 4: Design in comments
+  - 5,6: Argument and return types -- enums, ranges
+  - 7: Functional implementation
+  - 8,9: Problems with functional design
+  - 10: Finding objects (again), coupling
+  - 11: UML example
+  - 12: The "using" code
+  - 13: The "Board" class
+  - 14: Unit tests on "Board"
+  - 15: Player
+  - 16: Challenge: how to select type of players (hint of polymorphism)
+
+## M1_6_Memory_and_pointers
+  - heap and stack
+  - following pointers
+  - garbage collection
+
+## M1_7_Memory_composition_CPP
+
+## M1_EX1_?? 
+  - ?? Some kind of modeling example
 
 # Module 2: Inheritance
-  - `M2_1_Inheritance`  
-  - `M2_2_Animal_talking`
-  - `M2_3_Program_to_interface` 
-    - Interface vs Implementation
-    - RandomPoint example
-  - `M2_4_Composition_and_diamond_of_death``
-  - `M2_5_Java_collections`
-  - `M2_6_Cpp_Collections`
-  - `M2_7_Streams_Example`
-  - TicTacToe revisited
-  - `EX2_`
+
+## M2_1_Inheritance
+  
+## M2_2_Animal_talking
+
+## M2_3_Program_to_interface 
+  - Interface vs Implementation
+  - RandomPoint example
+
+## M2_4_Composition_and_diamond_of_death
+
+## M2_5_Java_collections
+
+## M2_6_Cpp_Collections
+
+## M2_7_Streams_Example
+
+## ?? TicTacToe revisited
+
+## EX2_??
+
+## Maybe include
   - IOC (DI)
+  - Exceptions
+  - Logging
+  - Profiling
 
 # Module 3: Design Patterns
-  - `M3_1_Compile_time_vs_run_time`
-  - `M3_2_Singleton`
-  - `M3_3_Decprator_Proxies`
-  - `M3_4_`
-  - `M3_5_`
-  - `M3_6_`
-  - `M3_7_Prototype_language_javascript`
-  - `EX3_`
-  
-  - super, base, derived, sub-class, is-a, has-a
-  - decorator
-  - prototype languages (JS)
+
+## M3_1_Compile_time_vs_run_time
+
+## M3_2_Singleton
+
+## M3_3_Decprator_Proxies
+
+## M3_4_
+
+## M3_5_
+
+## M3_6_
+
+## M3_7_Prototype_language_javascript
+
+## EX3_??
 
 # Module 4: UML and OOAD
-  - `M4_1_Terminology`
-    - Super, base, derived, sub-class
-  - `M4_2_`
-  - `M4_3_`
-  - `M4_4_`
-  - `M4_5_`
-  - `M4_6_`
-  - `M4_7_`
-  - `EX4_`
-  
+
+## M4_1_Terminology
+  - super, base, derived, sub-class, is-a, has-a
+
+## M4_2_
+
+## M4_3_
+
+## M4_4_
+
+## M4_5_
+
+## M4_6_
+
+## M4_7_
+
+## EX4_??
+
+## Maybe include  
   - SOLID and GRASP guidelines
   - UML modeling
-  - Prototype languages (JS)
     
 # Work these in
-  - `M1_1_OO vs Functional`
-  - `M2_6_GUI_Callback_functional_alternatives`
-      - Anonymous
-      - Inner
-      - Private inheritance
-      - is-a, has-a  
-
+  - M1_1_OO vs Functional`
+  - M2_6_GUI_Callback_functional_alternatives
+  - Anonymous
+  - Inner
+  - Private inheritance
   - Software reuse (project structure to share code)
