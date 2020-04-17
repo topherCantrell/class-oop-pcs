@@ -66,21 +66,20 @@ Books:
   - 17: Pointers to functions
   - 18, 19: Virtual function table, polymorphismm
     
-## M1_2_Encapsulation
+## M1_2_Classes_and_objects
   - What time is it
   - Program to the interface -- not the implementation (more later)    
     
-## M1_3_Classes_and_objects
   - Interface/API
   - Software Reuse
   - NamingConvention/Verbs/nouns/best-practice
     
-## M1_4_Statics_and_members
+## M1_3_Statics_and_members
    - Getters and Setters
    - Constructors/Destructors
    - Construction -- special time in an object's life. Initialize vs set
      
-## M1_5_TicTacToe_example
+## M1_4_TicTacToe_example
   - 3: Finding the objects
   - 4: Design in comments
   - 5,6: Argument and return types -- enums, ranges
@@ -94,12 +93,12 @@ Books:
   - 15: Player
   - 16: Challenge: how to select type of players (hint of polymorphism)
 
-## M1_6_Memory_and_pointers
+## M1_5_Memory_and_pointers
   - heap and stack
   - following pointers
   - garbage collection
 
-## M1_7_Memory_composition_CPP
+## M1_6_Memory_composition_CPP
 
 ## M1_EX1_?? 
   - ?? Some kind of modeling example

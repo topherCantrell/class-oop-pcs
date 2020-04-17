@@ -83,7 +83,7 @@
                     					
                     <sourceEntries>
                         						
-                        <entry excluding="Topics/04_UMLandOOAD|Topics/02_Inheritance|Topics/X3_Misc|Topics/X2_Animals|Topics/01_Encapsulation|Topics/03_DesignPatterns" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        <entry excluding="Topics/01_Encapsulation/01_02_Classes_and_objects|Topics/01_Encapsulation/01_06_Memory_composition_CPP|Topics/01_Encapsulation/01_05_Memory_and_pointers|Topics/01_Encapsulation/01_04_TicTacToe_example|Topics/01_Encapsulation/01_03_Statics_and_members|Topics/01_Encapsulation/01_01_Evolution|Topics/04_UMLandOOAD|Topics/02_Inheritance|Topics/X3_Misc|Topics/X2_Animals|Topics/03_DesignPatterns" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                         					
                     </sourceEntries>
                     				
@@ -175,7 +175,7 @@
                     					
                     <sourceEntries>
                         						
-                        <entry excluding="Topics/04_UMLandOOAD|Topics/02_Inheritance|Topics/X3_Misc|Topics/X2_Animals|Topics/01_Encapsulation|Topics/03_DesignPatterns" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
+                        <entry excluding="Topics/01_Encapsulation/01_02_Classes_and_objects|Topics/01_Encapsulation/01_06_Memory_composition_CPP|Topics/01_Encapsulation/01_05_Memory_and_pointers|Topics/01_Encapsulation/01_04_TicTacToe_example|Topics/01_Encapsulation/01_03_Statics_and_members|Topics/01_Encapsulation/01_01_Evolution|Topics/04_UMLandOOAD|Topics/02_Inheritance|Topics/X3_Misc|Topics/X2_Animals|Topics/03_DesignPatterns" flags="VALUE_WORKSPACE_PATH|RESOLVED" kind="sourcePath" name=""/>
                         					
                     </sourceEntries>
                     				
@@ -229,6 +229,28 @@
     	
     <storageModule moduleId="refreshScope"/>
     	
-    <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets"/>
+    <storageModule moduleId="org.eclipse.cdt.make.core.buildtargets">
+        		
+        <buildTargets>
+            			
+            <target name="using" path="Topics/01_Encapsulation/01_02_Classes_and_objects/cpp_source" targetID="org.eclipse.cdt.build.MakeTargetBuilder">
+                				
+                <buildCommand>make</buildCommand>
+                				
+                <buildArguments/>
+                				
+                <buildTarget>using</buildTarget>
+                				
+                <stopOnError>true</stopOnError>
+                				
+                <useDefaultCommand>true</useDefaultCommand>
+                				
+                <runAllBuilders>true</runAllBuilders>
+                			
+            </target>
+            		
+        </buildTargets>
+        	
+    </storageModule>
     
 </cproject>
