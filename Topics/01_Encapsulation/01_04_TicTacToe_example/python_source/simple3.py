@@ -1,9 +1,28 @@
+from enum import Enum
+
+class Player(Enum):
+    One = 1
+    Two = 2
+
 # Show the user the board before asking ... and then reshow with errors? Yes.
-def ask_for_move(player_num):
+def ask_for_move(player):
     print_board()
-    move = input('What is your move player '+str(player_num)+'? ')
+    move = input('What is your move player '+player.value)
+    #move = input('What is your move player '+str(player_num)+'? ')
     #move = input(f'What is your move player {player_num}? ')
     return int(move)
+
+ask_for_move(Player.One)
+
+class BoardStatus(Enum):
+    Playing = 'Playing'
+    Tie = 'Tie'
+    Won_1 = '1 won'
+    Won_2 = '2 won'
+    
+def get_board_sttatus():
+    return BoardStatus.Tie
+
 
 def place_token(move,player_num):
     board[move] = player_num
