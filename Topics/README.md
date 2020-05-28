@@ -9,47 +9,52 @@ Books:
   - [Design Patterns](https://www.amazon.com/dp/0201633612?tag=bizzi0d-20)
   - https://www.amazon.com/Fundamental-Concepts-Object-Oriented-Programming-ebook/dp/B00FO496ZW/ref=sr_1_13
   - [The OO Thought Process](https://www.amazon.com/dp/B004Z6EWBI?tag=bizzi0d-20)
-
-| Lecture                     | Status                 |
-| ----                        | ----                   |
-| ### M1_Encapsulation ###### | ###################### |
-| M1_1_Evolution_of_OO        | **40 mins**            |
-| M1_2_Encapsulation          |                        |
-| M1_3_Classes_and_objects    |                        |
-| M1_4_Statics_and_members    |                        |
-| M1_5_TicTacToe_example      | **30 mins**            |
-| M1_6_Memory_and_pointers    | `Ready to Record` |
-| M1_7_Memory_composition_CPP | `Ready to Record` |
-| M1_EX_??                    |                        |
-| ### M2_Inheritance ######## | ###################### |
-| M2_1_Inheritance            |                        |
-| M2_2_Animal_talking         |                        |
-| M2_3_Program_to_interface   |                        |
-| M2_4_Multiple_inheritance   |                        |
-| M2_5_Java_collections       |                        |
-| M2_6_CPP_collections        |                        |
-| M2_7_Streams_example        |                        |
-| M2_8_TicTacToe_revisited    |                        |
-| M2_EX_??                    |                        |
-| ### M3_Design_Patterns #### | ###################### |
-| M3_1_Compile_time_run_time  |                        |
-| M3_2_Singleton              |                        |
-| M3_3_Decprator_Proxies      |                        |
-| M3_4_                       |                        |
-| M3_5_                       |                        |
-| M3_6_                       |                        |
-| M3_7_Prototype_JS           |                        |
-| M3_EX_??                    |                        |
-| ### M4_UML_and_OOAD ####### | ###################### |
-| M4_1_Terminology            |                        |
-| M4_2_UML                    |                        |
-| M4_3_SOLID_GRASP_DRY        |                        |
-| M4_4_OO_vs_Functional       |                        |
-| M4_5_GUI_Callback           |                        |
-| M4_6_                       |                        |
-| M4_7_                       |                        |
-| M4_EX_??                    |                        |
   
+1. The "dot" operator. Islands of data and functions
+
+| Lecture                           | Status                 |
+| ----                              | ----                   |
+| ### M1_Encapsulation ######       | ###################### |
+| 01_Islands_of_data                |                        |
+| EX_1a_Modeling                    |                        |
+| 02_Evolution_of_OO                | **40 mins**            |
+| EX_1b_UsingObjects                |                        |
+|                                   |                        |
+| 03_Constructors_and_destructors   |                        |
+| EX_2a_TBD                         |                        |
+| 04_Statics_and_operators          |                        |
+| EX_2b_TBD                         |                        |
+|                                   |                        |
+| 05_TicTacToe_example              | **30 mins**            |
+| EX_3a_FleshOutTicTacToe           |                        |
+| 06_Memory_and_pointers_and_CPP    |                        |
+| EX_3b_FleshOutTicTacToe           |                        |
+|                                   |                        |
+| ### M2_Inheritance ######         | ###################### | 
+| 07_Inheritance_polymorphism       |                        |
+| EX_4a_TBD                         |                        |
+| 08_Multiple_inheritance           |                        |
+| EX_4b_TBD                         |                        |
+|                                   |                        |
+| 09_AnimalTalker_TTTPlayer_example |                        |
+| EX_5a_TBD                         |                        |
+| 10_Collections                    |                        |
+| EX_5b_TBD                         |                        |
+| 
+| ### M3_Design_patterns ######     | ###################### |
+| 11_Design_patterns                |                        |
+| EX_6a_TBD                         |                        |
+| 12_Streams                        |                        |
+| EX_6b_TBD                         |                        |
+|                                   |                        |
+| ### M4_UML_and_OOAD ######        | ###################### |
+| 13_UML_and_terminology            |                        |
+| EX_7a_TBD                         |                        |
+| 14_OOAD                           |                        |
+| EX_7b_TBD                         |                        |
+
+
+
 # Module 1: Encapsulation
 
 ## M1_1_Evolution_of_OO
@@ -98,17 +103,6 @@ Books:
   - following pointers
   - garbage collection
 
-## M1_6_Memory_composition_CPP
-
-## M1_EX1_?? 
-  - ?? Some kind of modeling example
-
-# Module 2: Inheritance
-
-## M2_1_Inheritance
-  
-## M2_2_Animal_talking
-
 ## M2_3_Program_to_interface 
   - Interface vs Implementation
   - RandomPoint example
@@ -123,50 +117,16 @@ Books:
 
 ## ?? TicTacToe revisited
 
-## EX2_??
-
-## Maybe include
-  - IOC (DI)
-  - Exceptions
-  - Logging
-  - Profiling
-
 # Module 3: Design Patterns
-
-## M3_1_Compile_time_vs_run_time
 
 ## M3_2_Singleton
 
 ## M3_3_Decprator_Proxies
 
-## M3_4_
-
-## M3_5_
-
-## M3_6_
-
-## M3_7_Prototype_language_javascript
-
-## EX3_??
-
 # Module 4: UML and OOAD
 
 ## M4_1_Terminology
   - super, base, derived, sub-class, is-a, has-a
-
-## M4_2_
-
-## M4_3_
-
-## M4_4_
-
-## M4_5_
-
-## M4_6_
-
-## M4_7_
-
-## EX4_??
 
 ## Maybe include  
   - SOLID and GRASP guidelines
@@ -179,3 +139,10 @@ Books:
   - Inner
   - Private inheritance
   - Software reuse (project structure to share code)
+
+  
+  - OO vs functional
+  - composition by pointers in java/python
+  - M4_3_SOLID_GRASP_DRY
+  - M4_4_OO_vs_Functional
+  - M4_5_GUI_Callback

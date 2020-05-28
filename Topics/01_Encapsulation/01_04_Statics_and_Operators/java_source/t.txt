@@ -1,0 +1,60 @@
+Compiled from "Point.java"
+public class Point {
+  public Point();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: iconst_5
+       6: putfield      #2                  // Field x:I
+       9: aload_0
+      10: bipush        6
+      12: putfield      #3                  // Field y:I
+      15: getstatic     #4                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      18: ldc           #5                  // String HERE
+      20: invokevirtual #6                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      23: aload_0
+      24: bipush        7
+      26: putfield      #2                  // Field x:I
+      29: aload_0
+      30: bipush        8
+      32: putfield      #3                  // Field y:I
+      35: return
+
+  public Point(int, int);
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: iconst_5
+       6: putfield      #2                  // Field x:I
+       9: aload_0
+      10: bipush        6
+      12: putfield      #3                  // Field y:I
+      15: getstatic     #4                  // Field java/lang/System.out:Ljava/io/PrintStream;
+      18: ldc           #5                  // String HERE
+      20: invokevirtual #6                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+      23: aload_0
+      24: iload_1
+      25: putfield      #2                  // Field x:I
+      28: aload_0
+      29: iload_2
+      30: putfield      #3                  // Field y:I
+      33: return
+
+  public int getX();
+    Code:
+       0: aload_0
+       1: getfield      #2                  // Field x:I
+       4: ireturn
+
+  public int getY();
+    Code:
+       0: aload_0
+       1: getfield      #3                  // Field y:I
+       4: ireturn
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: return
+}
