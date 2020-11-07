@@ -116,7 +116,31 @@ def get_grade(grades, index):
 
 def set_grade(grades, index, value):
     grades[index] = value
+```
 
+How about the `get_grade` and `set_grade functions`? They allow us to get and set individual grades within the array. But
+couldn't we do that directly?
+
+```python
+# Use the function like this:
+
+set_grade(bobby,8,50)
+
+# But we could just do:
+
+bobby[8] = 50
+```
+
+Suppose there are rules we must enforce like "no negative grades" or "no grades over 100". If other code is
+setting the data directly, we can only hope they know and enforce the rules. But we can't make them.
+
+If we force other code to go through our functions, then we can code the rules into the functions and prevent
+other code from messing up the data. This "other code" is rarely malicious. Rather it is just plain buggy.
+
+This concept of "hiding behind code" is called Encapsulation, and it is one of the cornerstones of OO
+programming. We'll have much more to say about it soon.
+
+```
 jan = [100,100,80,95,100,90,92,84,98,100]    
 bobby = [75,66,84,90,92,100,38,73,22,95]
 
@@ -133,6 +157,8 @@ print( get_grade(bobby, 8) )
 
 print( get_number_fails(bobby) )
 ```
+
+set_grade(bobby,7
 
 Kind of like the passive voice. The car was driven by Paul. The burger was eaten by Pat. The focus is on the verb.
 
