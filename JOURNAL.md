@@ -1,3 +1,12 @@
+# 11/1/2020
+
+CSS mods to hilite.me (colorful) for canvas:
+
+  - Remove "border-radius"
+  - 
+
+border:solid gray;border-width:.1em .1em .1em .1em;padding:.2em .6em;border-radius: unset
+
 # 3/28/2019
 
 Terry asked for a commercial:
