@@ -7,10 +7,6 @@ code neatly coupled in little bundles.
 
 ## Ms. Crump
 
-Developers wait patiently in their cubes for their bosses to come by and give them a very
-specific problem to write code to solve. They create this program in exchange for pizza
-and libations.
-
 Let's take a simple problem for example:
 
 ![](crump.jpg)
@@ -36,7 +32,7 @@ These are the things they teach you basic computer science class: loops and cond
 
 Your program might look something like this in python (but probably much shorter and cleaner):
 
-```python
+```python blah blah
 bobby = [75,66,84,90,92,100,38,73,22,95]
 count = 10
 
