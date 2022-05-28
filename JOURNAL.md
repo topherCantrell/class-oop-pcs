@@ -1,3 +1,11 @@
+# 7/17/2021
+
+Well, the push didn't finish life and work got in the way. But now my job is tech-ed, so I am re-envigorated.
+
+"TopicsNew" is where the magic is happening. I need to make the MARKDOWN->CANVAS tool.
+
+Starting again with first lesson. We start with USING OBJECTS.
+
 # 3/20/2021
 
 Big push now to finish for the end of May.

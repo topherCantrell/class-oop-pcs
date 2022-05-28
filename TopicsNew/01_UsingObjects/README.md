@@ -1,12 +1,50 @@
 # Using Objects
 
-The memory in your computer is a vast collection of functions and data. Functions are made from lines of code. Data (or structures) are chunks of data built up from primitive bytes.
+The memory in your computer is a vast collection of functions and data. Programming is an intricate dance between this data and code.
 
-For a long time in our programming history, functions and data were kept separated from one another. But along came object oriented programming. Now functions and the data they work on are grouped together into objects.
+Functions are where you write "code". Computer "instruction" are what you generally think of when you hear the word "programming". 
+Within a function, you list out primitive instructions for the computer to blindly follow: "add one to A", then "print A", 
+then "if A is less than 20, go back to the start of the list".
+
+Once you have coded up a function, you can call it from another function. Thus functions resuse each other to build up more
+and more complex functions.
+
+The computer's memory is also where you store information (data). Essentially, a computer's memory is just a long list of storage
+cells accessed by numerical index (address). You read the value from location 2. You write a value to location 64233. 
+
+Memory is surprisingly primitive. A memory location can only hold a single, numerical (integer) value with a maximum value.
+But we can group a series of locations together to form "structures" of more complex data. And we combine primitive structures 
+together to form even more complex data structures.
+
+For a long time in our programming history, functions and data were kept separated from one another. Your code was over here.
+And your data was over there.
+
+
+
+You are listing out 
+instructions for the computer to follow one by one. A function 
+
+
+Variables and code-flow, arrays and functions, data structures and algorithms -- these are the two sides of the programming coin, 
+and you deal with them in any programming language you use. Object Oriented Programming is a way to keep related data and code 
+neatly coupled in little bundles.
+
+Functions are made from lines of code. Functions are lists
+of instructions, and they can be somewhat primitive: 
+  - Print the message "Hello"
+  - Add one to variable A
+  - If variable A is less than 20, go back to the first instruction
+  - Print "Done"
+  
+  You build upData (or structures) are chunks of data built up from primitive bytes.
+
+But along came object oriented programming. Now functions and the data they work on are grouped together into objects.
 
 An object is a grouping of functions and data. Objects are little islands of data and functions in memory.
 
 That makes it sound like OO is a harmony of pieces that work together. In reality, it is more like a parasitic infection. The data structures continue to organize bytes of memory as they always have, completely unaware that a family of functions has packed up and moved in with them. This proximity gives the functions special access to the data and the other functions on the island.
+
+![](robot.jpg)
 
 # Object Lifecycle
 

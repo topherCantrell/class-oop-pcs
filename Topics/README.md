@@ -57,6 +57,37 @@ Books:
 
 # Module 1: Encapsulation
 
+-- Lesson 1: Code and Data --
+
+Start with functions. Structured programming. Breaking code into reusable modules. The stack (for
+return address). Stack overflow with recursive.
+
+Structures. Grouping bytes into larger structures. The heap and garbage collection.
+
+-- Lesson 2: Islands of Code and Data --
+
+Related functions that work on a structure. They all take a pointer to the structure plus other
+things. We'll keep the pointer up front. Call it something common "target", "obj", "that", "this", "self".
+
+GET and SET -- encapsulation. Hiding data behind code. Slower. Allows us to insert actions and checks in
+place of memory reads/writes.
+
+-- Lesson 3: What time is it?  --
+
+Show encapsulation with a clock object
+
+-- Lesson 4: Object Basics
+
+Classes, new, constructors, destructors, methods
+
+Permissions
+
+Static members
+
+
+
+
+
 ## M1_1_Evolution_of_OO
   - 3,4: Assembly language, how IFs work, labels, subroutines, assembler is forerunner to compiler
   - 5: RAM, ROM, IO, stack, heap, function information on the stack
